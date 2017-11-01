@@ -124,7 +124,6 @@ public class Graph {
 				}
 				else
 					current = current.getLink();
-				
 			}
 			current = nodes[s.pop()].getLink();
 		}
